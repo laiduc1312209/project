@@ -25,8 +25,8 @@ print(colorama.Fore.CYAN +"|_____|__,|_|____||___|___|")
 print(colorama.Fore.RED + '\n-Tool bypass key executor-')
 if __name__ == "__main__":
     hwid = get_hwid()
-    print(colorama.Fore.MAGENTA + "Hardware ID(s):", hwid)
-print(colorama.Fore.YELLOW + "[+] Executor support: Fluxus, Delta, CodeX")
+    print(colorama.Fore.MAGENTA + "\nHardware ID(s):", hwid)
+print(colorama.Fore.YELLOW + "\n[+] Executor support: Fluxus, Delta, CodeX, Hydrogen")
 key = input('\n[?] Input your key : ')
 api_url = f"https://shouko.goatbypassers.xyz/api/bypass?link={key}&api_key=goatbypassersontop"
 response = requests.get(api_url)
