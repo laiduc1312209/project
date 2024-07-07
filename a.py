@@ -42,4 +42,5 @@ else:
     print(Fore.RED + f"\nRequest failed, code status: {response.status_code}" + Style.RESET_ALL)
 
 input(Fore.GREEN + "\nPress Enter key to exit..." + Style.RESET_ALL)
-os.system('exit')
+os.system('cls')
+break
