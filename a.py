@@ -13,16 +13,8 @@ import re
 import os
 import colorama
 from colorama import Fore, Style
-os.system("mode con: cols=70 lines=25")
 os.system("cls")
 colorama.init()
-
-
-print(colorama.Fore.CYAN +" __        _ ____          ")
-print(colorama.Fore.CYAN +"|  |   ___|_|    | _ _ ___ ")
-print(colorama.Fore.CYAN +"|  |__| .'| |  |  | | |  _|")
-print(colorama.Fore.CYAN +"|_____|__,|_|____||___|___|")
-print(colorama.Fore.RED + '\n-Tool bypass key executor-')
 if __name__ == "__main__":
     hwid = get_hwid()
     print(colorama.Fore.MAGENTA + "\nHardware ID(s):", hwid)
