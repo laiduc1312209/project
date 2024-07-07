@@ -43,4 +43,3 @@ else:
 
 input(Fore.GREEN + "\nPress Enter key to exit..." + Style.RESET_ALL)
 os.system('cls')
-break
