@@ -28,7 +28,7 @@ if __name__ == "__main__":
     print(colorama.Fore.MAGENTA + "\nHardware ID(s):", hwid)
 print(colorama.Fore.YELLOW + "\n[+] Executor support: Fluxus, Delta, CodeX, Hydrogen")
 key = input('\n[?] Input your key : ')
-api_url = f"https://shouko.goatbypassers.xyz/api/bypass?link={key}&api_key=goatbypassersontop"
+api_url = f"https://api.goatbypassers.xyz/api/bypass?link={key}"
 response = requests.get(api_url)
 if response.status_code == 200:
     content = response.content.decode()
