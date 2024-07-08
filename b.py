@@ -24,8 +24,7 @@ def bypass_link():
                     print(Fore.CYAN + "----------------------------------------------------")
                     print(f"\n      \033[1;32m [ Your link ] \033[1;32m: \033[1;32m{key}")
                     print(Fore.CYAN + "----------------------------------------------------")
-                    print(Fore.BLUE + "VI : Giữ phím Ctrl và ấn vào link để mở link")
-                    print(Fore.BLUE + "EN : Hold Ctrl key and click on the link to open the link")
+                    print(Fore.BLUE + "Hold Ctrl key and click on the link to open the link")
                 else:
                     print(Fore.CYAN + "----------------------------------------------------")
                     print(Fore.RED + "\n                [ERROR]" + Style.RESET_ALL)
