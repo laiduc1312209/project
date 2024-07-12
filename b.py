@@ -11,7 +11,7 @@ def bypass_link():
     while True:
             key = input(Fore.YELLOW + "[?] Enter your link (If the wrong format is entered, an error may occur) : ")
             
-            api_url = f"https://api.bypass.vip/bypass?url={key}"
+            api_url = f"http://45.90.13.151:6132/api/bypass?link={key}&api_key=neyoshidzqua"
             
             response = requests.get(api_url)
             
