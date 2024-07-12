@@ -17,7 +17,7 @@ def bypass_link():
             
             if response.status_code == 200:
                 content = response.content.decode()
-                key_search = re.search('"result":"(.*?)"', content)
+                key_search = re.search('"key":"(.*?)"', content)
                 
                 if key_search:
                     key = key_search.group(1)
